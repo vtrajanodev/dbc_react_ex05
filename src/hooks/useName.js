@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { NameContext } from "../components/context/NameContext";
+import { NameContext } from "../context/NameContext";
 
 export const useName= () => {
     const myName = useContext(NameContext)

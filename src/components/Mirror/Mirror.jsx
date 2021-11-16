@@ -1,11 +1,10 @@
-import { useContext } from "react";
-import { CounterContext } from "../context/CounterContext";
-import { NameContext } from "../context/NameContext";
+import { useCounter } from "../../hooks/useCounter";
+import { useName } from "../../hooks/useName";
 
 export const Mirror = () => {
 
-    const { counter } = useContext(CounterContext)
-    const { name } = useContext(NameContext)
+    const { counter } = useCounter()
+    const { name } = useName()
     return (
         <>
             <p>Espelho: { counter }</p>

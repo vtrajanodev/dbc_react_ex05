@@ -1,5 +1,5 @@
-import { CounterContextProvider } from "./components/context/CounterContext";
-import { NameContextProvider } from "./components/context/NameContext";
+import { CounterContextProvider } from "./context/CounterContext";
+import { NameContextProvider } from "./context/NameContext";
 import { Counter } from "./components/Counter/Counter";
 import { Mirror } from "./components/Mirror/Mirror";
 import { Name } from "./components/Name/Name";
